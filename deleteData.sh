@@ -1,4 +1,3 @@
 #!/bin/bash
 echo " Start"
-docker compose rm
-docker compose rm -v
+docker compose down -v
