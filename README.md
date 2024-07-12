@@ -47,6 +47,16 @@ If you want to test this setup with other Liferay editions / versions, you can c
 
 ## FAQ
 
+### How do I access Liferay admin console?
+Go to http://sso:8080 and use the default credentials `admin@liferay.com`:`test`.
+
+
+## How do I access to the sso configuration in Liferay (configuration is autoloading by files)
+
+    `System Settings > SSO`
+
+
+
 ### How do I access Keycloak admin console?
 Go to http://sso:8080 and use the default credentials `admin`:`admin`.
 
