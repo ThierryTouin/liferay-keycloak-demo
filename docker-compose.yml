@@ -36,6 +36,7 @@ services:
       - smtp_data:/smtp4dev
   sso:
     image: quay.io/keycloak/keycloak:18.0.2
+    hostname: sso
     ports:
       - "8080:8080"
     env_file:
